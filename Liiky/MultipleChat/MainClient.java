@@ -7,7 +7,7 @@ import java.net.UnknownHostException;
 public class MainClient {
 
     public static void main(String[] args) throws UnknownHostException, IOException, ClassNotFoundException{
-        Client client = new Client(new Socket("26.86.248.21", 12345), "Jeremias");
+        Client client = new Client(new Socket("localhost", 12345), "Jeremias");
         client.runClient();
     }
 

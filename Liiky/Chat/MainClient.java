@@ -16,7 +16,7 @@ public class MainClient {
         }
 
         if(args.length == 0){
-            client = new Client("26.86.248.21");
+            client = new Client("10.108.141.52");
         } else {
             client  = new Client(args[0]);
         }
